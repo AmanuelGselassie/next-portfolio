@@ -153,8 +153,7 @@ export default function Projects({ data }) {
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                                desc nkqwertyuiolsdfghjklxcvbnm,sdfghjk
-                                                lxdfghjkdfghjklcvbnm
+                                                
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
