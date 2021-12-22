@@ -143,7 +143,7 @@ export default function Projects({ data }) {
                                 <Card  className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href={'https://margotmenu.herokuapp.com/'}
+                                        href={'https://mountain-expedition.vercel.app/'}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
