@@ -22,7 +22,9 @@ export default function Projects({ data }) {
     const classes = useStyles()
 
     const animRef = useRef(null)
-    const animate = useAnimate(animRef)
+    const animate = useAnimate(animRef);
+
+    console.log( data)
 
     return (
         <Grid direction="row-reverse" container justify="center" alignItems="center" spacing={10} className={classes.cont}>
@@ -44,65 +46,129 @@ export default function Projects({ data }) {
                 </Hidden>
             </Grid>
             <Grid container item xs={12} lg={6} direction="row" spacing={1}>
-                {
-                    !!data && data.map((v, i) =>
-                        <Grid item sm={6} xs={12} key={i}>
-                            <Fade in={animate} style={{ transitionDelay: `${200 * i}ms` }}>
-                                <Card key={i} className={classes.card}>
+                
+                        <Grid item lg={6}  >
+                            <Fade in={animate} style={{ transitionDelay: `${200 * 1}ms` }}>
+                                <Card  className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href={v.value.html_url}
+                                        href={'https://margotmenu.herokuapp.com/'}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <CardHeader
-                                            title={<><RepoIcon verticalAlign='middle' /> {v.value.name}</>}
-                                            subheader={
-                                                <>
-                                                    {
-                                                        !!v.value.stargazers_count &&
-                                                        <>
-                                                            <StarIcon verticalAlign='middle' />
-                                                            {v.value.stargazers_count}
-                                                        </>
-                                                    }
-                                                    {
-                                                        !!v.value.forks &&
-                                                        <>
-                                                            <RepoForkedIcon verticalAlign='middle' />
-                                                            {v.value.forks}
-                                                        </>
-                                                    }
-                                                </>
-                                            }
+                                            title={<><RepoIcon verticalAlign='middle' /> {'Margot Menu'}</>}
+                                            
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                                {v.value.description}
+                                            Margot is a dynamic menu for restaurants. It is a mobile-first but screen-responsive website.
+                                            The concept of Margot is to make the user experience easy and smooth. 
+                                            Margot was built on Ruby on Rails following the MVC model. Other than Ruby, 
+                                            the project used HTML, CSS/Bootstrap, Javascript, and PostgreSQL.
+                                            The project is still being updated.
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
                                             <Grid container direction="row" spacing={1}>
-                                                {
-                                                    !!v.value.languages &&
-                                                    v.value.languages.map((lang, i) =>
-                                                        <Grid item key={i}>
-                                                            <Chip
-                                                                key={i}
-                                                                label={lang}
-                                                                size="small"
-                                                            />
-                                                        </Grid>
-                                                    )
-                                                }
+                                            
+                                                                                        
                                             </Grid>
                                         </CardActions>
                                     </CardActionArea>
                                 </Card>
                             </Fade>
                         </Grid>
-                    )
-                }
+
+                        <Grid item lg={6} > 
+                            <Fade in={animate} style={{ transitionDelay: `${200 * 1}ms` }}>
+                                <Card  className={classes.card}>
+                                    <CardActionArea
+                                        className={classes.cardActionArea}
+                                        href={'https://surf-sticks.herokuapp.com/'}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <CardHeader
+                                            title={<><RepoIcon verticalAlign='middle' /> {'Surf-Stick'}</>}
+                                            
+                                        />
+                                        <CardContent>
+                                            <Typography variant="body2" color="textSecondary" component="p">
+                                            Surf Stick is an airbnb clone where you can rent a surfboard from different people.
+                                            We used Ruby on Rails, HTML, CSS/Bootstrap, Javascript, and PostgreSQL to build the website.
+                                            The project is still being updated.
+                                            </Typography>
+                                        </CardContent>
+                                        <CardActions>
+                                            <Grid container direction="row" spacing={1}>
+                                               
+                                            </Grid>
+                                        </CardActions>
+                                    </CardActionArea>
+                                </Card>
+                            </Fade>
+                         
+                        </Grid>
+                        <Grid item lg={6} > 
+                            <Fade in={animate} style={{ transitionDelay: `${200 * 1}ms` }}>
+                                <Card  className={classes.card}>
+                                    <CardActionArea
+                                        className={classes.cardActionArea}
+                                        href={'https://margotmenu.herokuapp.com/'}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <CardHeader
+                                            title={<><RepoIcon verticalAlign='middle' /> {'Tec-Expert'}</>}
+                                            
+                                        />
+                                        <CardContent>
+                                            <Typography variant="body2" color="textSecondary" component="p">
+                                            Tec-Expert is an online shop in which i had the chance to work on to enhance the UI.
+                                            </Typography>
+                                        </CardContent>
+                                        <CardActions>
+                                            <Grid container direction="row" spacing={1}>
+                                               
+                                            </Grid>
+                                        </CardActions>
+                                    </CardActionArea>
+                                </Card>
+                            </Fade>
+                         
+                        </Grid>
+                        <Grid item lg={6} > 
+                            <Fade in={animate} style={{ transitionDelay: `${200 * 1}ms` }}>
+                                <Card  className={classes.card}>
+                                    <CardActionArea
+                                        className={classes.cardActionArea}
+                                        href={'https://margotmenu.herokuapp.com/'}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <CardHeader
+                                            title={<><RepoIcon verticalAlign='middle' /> {'Mountain Expedition'}</>}
+                                            
+                                        />
+                                        <CardContent>
+                                            <Typography variant="body2" color="textSecondary" component="p">
+                                                desc nkqwertyuiolsdfghjklxcvbnm,sdfghjk
+                                                lxdfghjkdfghjklcvbnm
+                                            </Typography>
+                                        </CardContent>
+                                        <CardActions>
+                                            <Grid container direction="row" spacing={1}>
+                                               
+                                            </Grid>
+                                        </CardActions>
+                                    </CardActionArea>
+                                </Card>
+                            </Fade>
+                         
+                        </Grid>
+                    
+                
             </Grid>
         </Grid>
     )

@@ -1,87 +1,61 @@
 {
-    "name": "Kaustubh Odak",
+    "name": "Amanuel",
     "landing": {
-        "title": "Hi, I'm Kaustubh",
+        "title": "Hi, I'm Amanuel G/selassie",
         "subtitles": [
             "Full-stack developer 🌐",
-            "Cross-platform developer 📱💻",
-            "Exploring cloud ☁️",
+            
             "Beginner in devops ♾️",
             "Just getting started 📈"
         ],
         "professionalDetails": [
             {
-                "alt": "kaustubh-odak",
+                "alt": "Amanuel",
                 "icon": "linkedin",
-                "link": "https://www.linkedin.com/in/kaustubh-odak/"
+                "link": "https://www.linkedin.com/in/amanuel-gebreselassie/"
             },
             {
-                "alt": "kausko",
-                "icon": "stackoverflow",
-                "link": "https://stackoverflow.com/users/15832433/kausko"
+                "alt": "Amanuel",
+                "icon": "youtube",
+                "link": "https://youtu.be/U1yCJrn8X8k?t=709"
             },
             {
-                "alt": "kausko",
+                "alt": "Amanuel",
                 "icon": "github",
-                "link": "https://github.com/kausko"
+                "link": "https://github.com/AmanuelGselassie"
             },
             {
                 "alt": "Email",
                 "icon": "gmail",
-                "link": "mailto:iam@kaustubhodak.me,kaustubhodak1@gmail.com"
+                "link": "amanuel.gselassie99@gmail.com"
             }
         ]
     },
     "skills": {
         "Languages known": [
-            "JavaScript",
-            "Java",
             "C++",
-            "Python",
             "HTML5",
             "CSS3",
-            "TypeScript",
-            "Kotlin",
-            "Dart"
+            "JavaScript"
         ],
         "Frontend": [
-            "React",
             "Redux",
             "Next.js",
-            "Gatsby",
-            "Netlify",
             "Vercel",
-            "Material-UI",
-            "antdesign",
+            "React",
             "Bootstrap"
         ],
-        "Backend, Database and Cloud": [
-            "Node.js",
-            "Express",
-            "FastAPI",
-            "MongoDB",
-            "MySQL",
-            "PostgreSQL",
-            {
-                "alt": "Azure",
-                "icon": "microsoftazure"
-            },
-            "Heroku",
-            "Firebase"
+        "Backend and Framework": [
+            "Ruby",
+            "Ruby on Rails",
+            "Heroku"
         ],
-        "Mobile": [
-            {
-                "alt": "React_Native",
-                "icon": "react",
-                "backgroundColor": "#424242"
-            },
-            "Expo",
-            "Android",
-            "Flutter"
+        "UiUX": [
+            "Figma"
         ]
     },
     "projects": {
-        "baseURI": "https://api.github.com/repos/kausko/",
+        "baseURI": "https://api.github.com/repos/AmanuelGselassie/",
         "repositories": [
             "Genrealize",
             "Portfolio",
@@ -94,76 +68,62 @@
     "experience": {
         "Work Experience": [
             {
-                "organization": "CloudDFN LLP",
-                "role": "Full Stack Developer",
+                "organization": "Kesato",
+                "role": "Front-End Developer",
                 "type": "Internship",
-                "startDate": "2020-07-20",
-                "endDate": "2021-01-20",
-                "city": "Mumbai",
-                "state": "Maharashtra",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/clouddfn-llp/",
-                "thumbnail": "/CDFN.jfif"
+                "startDate": "2021-10-04",
+                "endDate": "Present",
+                "city": "Umalas",
+                "state": "Bali",
+                "country": "Indonesia",
+                "url": "https://www.kesato.com/",
+                "thumbnail": "/kefeta.png"
             },
             {
-                "organization": "NonceBlox Pvt. Ltd.",
-                "role": "Full Stack Developer",
+                "organization": "Kefeta Training and Consulting",
+                "role": "Associte",
                 "type": "Internship",
-                "startDate": "2021-07-01",
-                "endDate": "2021-10-01",
-                "city": "New Delhi",
-                "state": "Delhi",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/clouddfn-llp/",
-                "thumbnail": "https://media-exp1.licdn.com/dms/image/C510BAQFlYpD4CBqdNg/company-logo_200_200/0/1519500564654?e=1645056000&v=beta&t=zNmk6RfkUEj3vPWJ4cFEBvtIPdv5vOnBlgeSvMhnTa4"
+                "startDate": "2018-03-01",
+                "endDate": "2018-08-20",
+                "city": "Addis",
+                "state": "Addis Ababa",
+                "country": "Ethiopia",
+                "url": "https://www.linkedin.com/in/kefeta-training-and-consulting-plc-2114601b0/",
+                "thumbnail": "/kef.jpg"
             }
         ],
-        "Volunteer Experience": [
+        "Education": [
             {
-                "organization": "PICT IEEE Student Branch (PISB)",
-                "role": "Technical Head",
-                "type": "Member",
-                "startDate": "2019-07-01",
-                "endDate": "",
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/pisbieee/",
-                "thumbnail": "/PISB.jfif"
+                "organization": "Lewagon",
+                "role": "Full-stack developer",
+                "type": "Certification",
+                "startDate": "2021-06-10",
+                "endDate": "2021-08-04",
+                "city": "Addis",
+                "state": "Addis Ababa",
+                "country": "Ethiopia",
+                "url": "https://www.lewagon.com",
+                "thumbnail": "/lewagon.png"
             },
             {
-                "organization": "Pictoreal",
-                "role": "Technical Head",
-                "type": "Member",
-                "startDate": "2019-07-01",
-                "endDate": "2021-04-01",
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/pictoreal/",
-                "thumbnail": "/Picto.jfif"
+                "organization": "Unity Universty",
+                "role": "Computer science ",
+                "type": "Bachelor's degree",
+                "startDate": "2015-09-01",
+                "endDate": "2020-02-01",
+                "city": "Addis",
+                "state": "Addis Ababa",
+                "country": "Ethiopia",
+                "url": "https://university-1459.business.site/?utm_source=gmb&utm_medium=referral",
+                "thumbnail": "/unity.jpeg"
             }
         ]
     },
     "about": {
-        "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with the best UI practices.",
-        "picture": "/profile.jpg",
+        "description": "I am enthusiastic full stack web developer eager to contribute to team success through hard work, attention to detail and excellent communication skills. I am a simple yet very competitive guy, I like to achieve results.I am very coachable and a good listener and am always eager to understand what the other person has to say. I have the Ability to take constructive criticism positively and work on the feedback given to improve.",
+        "picture": "/aman.jpg" ,
         "social": [
-            {
-                "alt": "kaustubh._.o",
-                "icon": "instagram",
-                "link": "https://www.instagram.com/kaustubh._.o/"
-            },
-            {
-                "alt": "KO_272",
-                "icon": "twitter",
-                "link": "https://twitter.com/KO_272"
-            },
-            {
-                "alt": "kaustubh#4489",
-                "icon": "discord",
-                "link": "https://discord.com/"
-            }
+           
         ]
     },
     "theme": {

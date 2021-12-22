@@ -50,6 +50,8 @@ export async function getStaticProps() {
 
 export default function Index({ projects, setTheme }) {
 
+  console.log(projects);
+
   const classes = useStyles()
 
   const trigger = useScrollTrigger({ disableHysteresis: true })

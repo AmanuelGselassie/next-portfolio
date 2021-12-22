@@ -90,3 +90,5 @@ export default function About() {
         </Grid>
     )
 }
+// "Cross-platform developer 📱💻",
+            // "Exploring cloud ☁️",
