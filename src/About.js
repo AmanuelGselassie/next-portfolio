@@ -42,7 +42,7 @@ const useStyles = makeStyles(theme => ({
         padding: theme.spacing(2)
     },
     dp: {
-        height: theme.spacing(Math.max(dpx, 28)),
+        height: theme.spacing(Math.max(dpx*2, 28)),
         width: theme.spacing(Math.max(dpx, 28))
     },
     ...iobj
@@ -68,6 +68,9 @@ export default function About() {
                             alt="Display Picture"
                             src={about.picture}
                             layout="fill"
+                            objectFit="cover"
+                            // width={100}
+                            // height={150}
                         />
                     </Avatar>
                 </Grid>

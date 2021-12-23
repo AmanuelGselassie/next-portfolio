@@ -125,8 +125,8 @@ export default function Projects({ data }) {
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                            Tec-Expert is an online shop in which i had the chance to work on to enhance the UI.
-                                            </Typography>
+                                            Tec-Expert is an online shop in which i had the chance to work on to enhance the UI.This shop is made mainly by using HTML , CSS & Bootstrap .
+                                            </Typography> 
                                         </CardContent>
                                         <CardActions>
                                             <Grid container direction="row" spacing={1}>
@@ -153,7 +153,7 @@ export default function Projects({ data }) {
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                                
+                                            Welcome To Mountain Expedition Club!Overseas Expeditions, UK Mountain Challenges Private guiding & Instruction.The project is still being updated.
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
