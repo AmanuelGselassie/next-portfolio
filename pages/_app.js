@@ -6,7 +6,7 @@ import { darkTheme, lightTheme } from '../src/theme';
 
 export default function MyApp({ Component, pageProps }) {
 
-  const prefersDarkMode = 1;
+  const prefersDarkMode = 0;
   const [theme, setTheme] = useState(
     prefersDarkMode ? darkTheme : lightTheme
   )

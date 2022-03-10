@@ -32,7 +32,7 @@
         ]
     },
     "skills": {
-        "Languages known": [
+        "Languages": [
             "C++",
             "HTML5",
             "CSS3",
@@ -41,13 +41,17 @@
         "Frontend": [
             "Redux",
             "Next.js",
-            "Vercel",
             "React",
             "Bootstrap"
         ],
-        "Backend and Framework": [
+        "Backend": [
             "Ruby",
-            "Ruby on Rails",
+            "Ruby on Rails"
+
+
+        ],
+        "Platform": [
+            "Vercel",
             "Heroku"
         ],
         "UiUX": [
@@ -72,7 +76,7 @@
                 "role": "Front-End Developer",
                 "type": "Internship",
                 "startDate": "2021-10-04",
-                "endDate": "Present",
+                "endDate": "2022-02-17",
                 "city": "Umalas",
                 "state": "Bali",
                 "country": "Indonesia",
