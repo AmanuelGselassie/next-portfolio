@@ -62,10 +62,7 @@ export default function Projects({ data }) {
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                            Margot is a dynamic menu for restaurants. It is a mobile-first but screen-responsive website.
-                                            The concept of Margot is to make the user experience easy and smooth. 
-                                            Margot was built on Ruby on Rails following the MVC model. Other than Ruby, 
-                                            the project used HTML, CSS/Bootstrap, Javascript, and PostgreSQL.
+                                            Margot menu is an app designed to enhance the culinary dining experience by collating diner reviews and menu recommendations for individual items on a restaurant menu.
                                             The project is still being updated.
                                             </Typography>
                                         </CardContent>
@@ -85,19 +82,17 @@ export default function Projects({ data }) {
                                 <Card  className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href={'https://surf-sticks.herokuapp.com/'}
+                                        href={'https://sportxdesigns.com/'}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <CardHeader
-                                            title={<><RepoIcon verticalAlign='middle' /> {'Surf-Stick'}</>}
+                                            title={<><RepoIcon verticalAlign='middle' /> {'Sportxdesigns'}</>}
                                             
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                            Surf Stick is an airbnb clone where you can rent a surfboard from different people.
-                                            We used Ruby on Rails, HTML, CSS/Bootstrap, Javascript, and PostgreSQL to build the website.
-                                            The project is still being updated.
+                                            Visuals provided by SportXDesign. SportXDesign is a creative 3D animation and graphic design agency based in the UK.
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
@@ -166,34 +161,7 @@ export default function Projects({ data }) {
                             </Fade>
                          
                         </Grid>
-                        <Grid item lg={6} >
-                            <Fade in={animate} style={{ transitionDelay: `${200 * 1}ms` }}>
-                                <Card  className={classes.card}>
-                                    <CardActionArea
-                                        className={classes.cardActionArea}
-                                        href={'https://sportxdesigns.com/'}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <CardHeader
-                                            title={<><RepoIcon verticalAlign='middle' /> {'Sportxdesigns'}</>}
 
-                                        />
-                                        <CardContent>
-                                            <Typography variant="body2" color="textSecondary" component="p">
-                                            Welcome To Mountain Expedition Club!Overseas Expeditions, UK Mountain Challenges Private guiding & Instruction.The project is still being updated.
-                                            </Typography>
-                                        </CardContent>
-                                        <CardActions>
-                                            <Grid container direction="row" spacing={1}>
-
-                                            </Grid>
-                                        </CardActions>
-                                    </CardActionArea>
-                                </Card>
-                            </Fade>
-
-                        </Grid>
 
                     
                 

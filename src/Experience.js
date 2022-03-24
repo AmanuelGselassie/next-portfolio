@@ -68,7 +68,7 @@ export default function Experience() {
     return (
         <Grid direction="row" container justify="center" alignItems="center" spacing={10} className={classes.cont}>
             <Grid item xs={12} lg={6}>
-                <Typography variant="h2" gutterBottom align="center">
+                <Typography variant="h2" gutterBottom align="center" innerRef={animRef}>
                     Experience
                 </Typography>
                 <Hidden mdDown>
